@@ -163,3 +163,120 @@ a:hover {
     background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
     text-decoration: none;
 }
+
+
+/*********************      for mobiles     ********************/
+
+@media only screen and (max-width: 620px) {
+
+    body {
+        width: fit-content;
+    }
+    
+    h1 {
+        font-size: 5.625rem;
+    }
+    
+    h2 {
+        padding-bottom: 20px;
+        margin: 0 auto 10px;
+        font-size: 2.75rem;
+    }
+    
+    h3 {
+        font-size: 1em;
+    }
+    
+    p {
+        line-height: 2;
+        font-size: 1.1rem;
+        width: 100%;
+    }
+    
+    hr {
+        border: dotted #daf7f1 6px;
+        border-bottom: none;    
+        width: 4%;
+        margin: 100px auto;
+    }
+    
+    .top-container {
+        padding-top: 100px;
+    }
+
+    .pro {
+        font-weight: 600;
+    }
+
+    .top-cloud {
+        right: 20px;
+        top: 40px;
+    }
+    
+    .bottom-cloud {
+        left: 60px;
+        bottom: 310px
+    }
+    
+    .profile-picture {
+        width: 200px;
+        height: 200px;
+    }
+
+    .hello {
+        margin: 35px auto;
+    }
+
+    .intro {
+        margin: auto;
+        width: 80%;
+    }
+    
+    .middle-container {
+        margin: 110px auto 70px;
+    }
+
+    .code-img {
+        width: 25%;
+        float: left;
+        margin-right: 30px;
+    }
+    
+    .cad-img {
+        width: 25%;
+        float: right;
+        margin-left: 30px;
+    }
+    
+    .skill-row {
+        width: 80%;
+        margin: 100px auto;
+        text-align: left;
+    }
+    
+    .contact-message {
+        width: 70%;
+        margin: 40px auto 60px;
+    }
+    
+    .attribute {
+        font-size: small;
+        width: 80%;
+        margin: auto;
+        position: relative;
+        top: 50px;
+    }
+    
+    .bottom-container {
+        background-color: #66bfbf;
+        padding: 50px 0 0px;
+    }
+    
+    .copyright {
+        color: #eaf6f6;
+        font-size: 0.8rem;
+        padding: 30px 0;
+        margin: auto;
+    }
+
+}
